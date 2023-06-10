@@ -1,0 +1,154 @@
+#headerImg{
+    margin-left: 20%;
+    margin-top: 2%;
+}
+section{
+    background-color: rgb(218, 250, 207) !important;
+}
+
+.navbar-nav{
+    margin-left: 10%;
+    font-size: 1.3rem;
+    justify-content: space-between !important;
+}
+.nav-link{
+    margin: 10px !important;
+}
+#headline{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.about{
+    margin: 4%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(142, 48, 5);    
+}
+
+.carousel-item{
+    height: 500px;
+
+}
+.carousel-item> img{
+    height: 100%;
+    object-fit: cover;
+}
+.principle-investigator{
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    
+}
+.principle-investigator>div{
+    margin: 20px;
+}
+.principle-investigator>div>h2,h3{
+    font-weight: bolder;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.principle-investigator>img{
+    height: 300px;
+    width: 300px;
+}
+.principle-investigator>p{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(142, 48, 5); 
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+.about-members{
+    display:inline-block;
+}
+.about-members{
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+}
+.members{
+    margin: 20px;
+}
+#publications>h2,h4{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bolder;
+}
+#publications>ol>li,p{
+    margin: 5px 15px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: rgb(142, 48, 5); ;
+}
+
+.teaching{
+    margin-top: 20px;
+    text-align: center;
+}
+.teaching>h2,h3{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bolder
+}
+.teaching>ol,ul{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: rgb(142, 48, 5); ;
+}
+.awards{
+    display: flex;
+    margin: 20px;
+}
+.awards>img,ul{
+    margin: 30px;
+}
+.awards>ul{
+    margin-top: 60px;
+}
+.research{
+    text-align: center;
+
+}
+.research>h3{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bolder
+}
+.research-div{
+    display: flex;
+}
+
+.research>div>img{
+    margin: 30px;
+    height: 500px;
+    width: 600px;
+}
+.research>div>p{
+    margin-top: 90px;
+}
+
+footer{
+    /* margin-top: -55px; */
+    background-color: black;
+    text-align: center;
+}
+footer>div{
+    padding: 20px;
+}
+footer>div>h2{
+    color: white;
+}
+footer>div>p{
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
